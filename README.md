@@ -98,6 +98,7 @@ Feature importance highlights:
 
 ## Repository Structure:
 
+```
 flight-delay-prediction-ai/
 │
 ├── notebook/
@@ -112,6 +113,7 @@ flight-delay-prediction-ai/
 │
 ├── requirements.txt
 └── README.md
+```
 
 ## How to Run:
 
