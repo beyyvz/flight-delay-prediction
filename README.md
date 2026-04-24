@@ -95,7 +95,8 @@ Weather conditions
 Seasonal trends
 Hyperparameter tuning for better performance
 
-## Repository Structure
+## Repository Structure:
+
 flight-delay-prediction-ai/
 │
 ├── notebook/
