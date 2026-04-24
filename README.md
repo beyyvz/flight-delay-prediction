@@ -5,11 +5,12 @@ Semester: Spring 2026
 
 ## Team Members:
 
-Ena Tarumi
-Robert Layton
-Beyza Yavuz
-Christopher Naraysingh
-Shaniya Rinehardt
+- Ena Tarumi
+- Robert Layton
+- Beyza Yavuz
+- Christopher Naraysingh
+- Shaniya Rinehardt
+
 📌 Project Overview
 
 Flight delays affect millions of passengers and cost airlines billions of dollars annually.
