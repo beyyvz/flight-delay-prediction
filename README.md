@@ -77,23 +77,24 @@ Confusion Matrix
 
 ## Visualizations:
 - Confusion matrix shows strong performance on majority class (on-time flights)
+
 Feature importance highlights:
 - Departure time (highest impact)
 - Airport features (moderate impact)
 - Distance (lower impact)
 
 ## Challenges:
-Large dataset (~5.8M rows) required sampling for performance
-Class imbalance between delayed vs on-time flights
-Feature encoding increased dimensionality significantly
+- Large dataset (~5.8M rows) required sampling for performance
+- Class imbalance between delayed vs on-time flights
+- Feature encoding increased dimensionality significantly
 
 ## Future Improvements:
-Try more advanced models (Random Forest, XGBoost)
-Use techniques for class imbalance (SMOTE or class weighting)
-Add external features such as:
-Weather conditions
-Seasonal trends
-Hyperparameter tuning for better performance
+- Try more advanced models (Random Forest, XGBoost)
+- Use techniques for class imbalance (SMOTE or class weighting)
+- Add external features such as:
+- Weather conditions
+- Seasonal trends
+- Hyperparameter tuning for better performance
 
 ## Repository Structure:
 
@@ -124,7 +125,7 @@ jupyter notebook notebook/flight_delay_model.ipynb
 
 
 ## Links
-📊 Google Colab Notebook: (paste your link here)
+📊 Google Colab Notebook: (paste link here)
 🎥 Presentation Recording: (add later)
 
 
