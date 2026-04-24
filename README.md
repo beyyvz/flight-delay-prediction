@@ -22,6 +22,7 @@ Delayed (≥ 15 minutes)
 On Time
 Compare model performance using standard evaluation metrics
 Analyze which features most influence delays
+
 📊 Dataset
 Source: U.S. DOT On-Time Performance Dataset (2015)
 Size: ~5.8 million flight records
@@ -33,7 +34,9 @@ Destination airport
 Departure time
 Flight distance
 Arrival delay (target variable)
+
 ⚙️ Methodology
+
 1. Data Preprocessing
 Removed rows with missing critical values
 Created binary target variable:
@@ -43,14 +46,17 @@ One-hot encoded categorical features:
 Airline
 Origin airport
 Destination airport
+
 2. Feature Engineering
 Used numerical features such as departure time and distance
 Handled class imbalance in dataset
 Sampled 200,000 rows for efficient training
+
 3. Model Training
 Decision Tree Classifier (scikit-learn)
 Train/Test split: 80/20
 Pipeline used for preprocessing + model training
+
 4. Evaluation Metrics
 Accuracy
 Precision
@@ -61,20 +67,24 @@ Confusion Matrix
 Accuracy: 77.8%
 Model performs well at predicting on-time flights
 Slight difficulty detecting delayed flights due to class imbalance
+
 Key Insight:
 Departure time is the most important feature in predicting delays
 Origin and destination airports also have strong influence
 Airline has relatively low impact compared to timing and route
+
 📊 Visualizations
 Confusion matrix shows strong performance on majority class (on-time flights)
 Feature importance highlights:
 Departure time (highest impact)
 Airport features (moderate impact)
 Distance (lower impact)
+
 🚧 Challenges
 Large dataset (~5.8M rows) required sampling for performance
 Class imbalance between delayed vs on-time flights
 Feature encoding increased dimensionality significantly
+
 🚀 Future Improvements
 Try more advanced models (Random Forest, XGBoost)
 Use techniques for class imbalance (SMOTE or class weighting)
@@ -82,6 +92,7 @@ Add external features such as:
 Weather conditions
 Seasonal trends
 Hyperparameter tuning for better performance
+
 📂 Repository Structure
 flight-delay-prediction-ai/
 │
@@ -97,6 +108,7 @@ flight-delay-prediction-ai/
 │
 ├── requirements.txt
 └── README.md
+
 💻 How to Run
 
 Install dependencies:
@@ -106,14 +118,17 @@ pip install -r requirements.txt
 Run the notebook:
 
 jupyter notebook notebook/flight_delay_model.ipynb
-🔗 Links
+
+## Links
 📊 Google Colab Notebook: (paste your link here)
 🎥 Presentation Recording: (add later)
-🧠 What We Learned
+
+## What We Learned
 How to build a full machine learning pipeline
 Data preprocessing and encoding techniques
 Evaluating classification models using multiple metrics
 How class imbalance affects prediction performance
-📌 Summary
+
+## Summary
 
 This project demonstrates a complete machine learning workflow for predicting flight delays using real-world aviation data. Despite class imbalance, the model achieves solid performance and provides meaningful insights into key delay factors.
