@@ -1,5 +1,5 @@
-(We used this Kaggle Dataset for our AI Model:
-https://www.kaggle.com/datasets/usdot/flight-delays/data)
+***(Due to size limitations, the dataset flights.csv is not included in this repository. We used this Kaggle Dataset for our AI Model:
+https://www.kaggle.com/datasets/usdot/flight-delays/data)***
 
 
 ## Flight Delay Prediction Using Machine Learning
@@ -21,17 +21,16 @@ Flight delays affect millions of passengers and cost airlines billions of dollar
 This project builds a machine learning model to predict whether a flight will be delayed or on time using historical flight data from the 2015 U.S. DOT dataset.
 
 ## Objectives:
-Predict flight delays using machine learning models
-Classify flights as:
-Delayed (≥ 15 minutes)
-On Time
-Compare model performance using standard evaluation metrics
-Analyze which features most influence delays
+- Predict flight delays using machine learning models
+- Classify flights as: Delayed (≥ 15 minutes) or On Time
+- Compare model performance using standard evaluation metrics
+- Analyze which features most influence delays
 
 ## Dataset
 Source: U.S. DOT On-Time Performance Dataset (2015)
 Size: ~5.8 million flight records
 Type: Structured tabular data
+
 Features include:
 - Airline
 - Origin airport
@@ -43,34 +42,37 @@ Features include:
 ## Methodology:
 
 1. Data Preprocessing
-Removed rows with missing critical values
-Created binary target variable:
-Delay ≥ 15 min → 1
-On-time → 0
+- Removed rows with missing critical values
+- Created binary target variable: Delay ≥ 15 min → 1, On-time → 0
+
 One-hot encoded categorical features:
 - Airline
 - Origin airport
 - Destination airport
+  
 
 2. Feature Engineering
-Used numerical features such as departure time and distance
-Handled class imbalance in dataset
-Sampled 200,000 rows for efficient training
+- Used numerical features such as departure time and distance
+- Handled class imbalance in dataset
+- Sampled 200,000 rows for efficient training
+
 
 3. Model Training
-Decision Tree Classifier (scikit-learn)
-Train/Test split: 80/20
-Pipeline used for preprocessing + model training
+- Decision Tree Classifier (scikit-learn)
+- Train/Test split: 80/20
+- Pipeline used for preprocessing + model training
+
 
 4. Evaluation Metrics
-Accuracy
-Precision
-Recall
-F1 Score
-Confusion Matrix
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- Confusion Matrix
+
 
 ## Results:
-- Accuracy: 77.8%
+- Accuracy: 83.8% (can be anything, since its adjusted based on flight time/miles/airline
 - Model performs well at predicting on-time flights
 - Slight difficulty detecting delayed flights due to class imbalance
 
