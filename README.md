@@ -105,23 +105,21 @@ Feature importance highlights:
 ```
 flight-delay-prediction-ai/
 │
-├── notebook/
-│   └── flight_delay_model.ipynb
+├── app.py
+├── train_model.py
+├── flight_delay_project.ipynb
 │
-├── results/
-│   ├── confusion_matrix.png
-│   └── feature_importance.png
+├── airlines.csv
+├── airports.csv
 │
-├── presentation/
-│   └── Flight_Delay_Presentation.pdf
-│
-├── requirements.txt
 └── README.md
+
 ```
 
 
 ## Links
 📊 Google Colab Notebook: https://colab.research.google.com/drive/1ZsmtvLx19XyZv5duFC84_zu41Mv8Xfwg
+
 🎥 Presentation Recording: https://youtu.be/loKBo4HVHNU
 
 
