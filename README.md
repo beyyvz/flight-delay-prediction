@@ -1,3 +1,7 @@
+(We used this Kaggle Dataset for our AI Model:
+https://www.kaggle.com/datasets/usdot/flight-delays/data)
+
+
 ## Flight Delay Prediction Using Machine Learning
 
 Course: CAP 4630 – Intro to Artificial Intelligence
