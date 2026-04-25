@@ -119,20 +119,10 @@ flight-delay-prediction-ai/
 └── README.md
 ```
 
-## How to Run:
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-Run the notebook:
-
-jupyter notebook notebook/flight_delay_model.ipynb
-
 
 ## Links
-📊 Google Colab Notebook: (paste link here)
-🎥 Presentation Recording: (add later)
+📊 Google Colab Notebook: https://colab.research.google.com/drive/1ZsmtvLx19XyZv5duFC84_zu41Mv8Xfwg
+🎥 Presentation Recording: https://youtu.be/loKBo4HVHNU
 
 
 ## What We Learned
