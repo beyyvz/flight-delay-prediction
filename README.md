@@ -28,7 +28,9 @@ This project builds a machine learning model to predict whether a flight will be
 
 ## Dataset
 Source: U.S. DOT On-Time Performance Dataset (2015)
+
 Size: ~5.8 million flight records
+
 Type: Structured tabular data
 
 Features include:
